@@ -38,3 +38,8 @@ print(f"The set has {len(s)} elements")  # calculate the length
 
 
 # Dictionary -collection of keyvalue pairs(dict)
+houses = {0: "Gryffindor", 1: "Slytherin"}
+print(houses[0])
+print(houses[1])
+houses[1] = "SirageHouse"
+print(houses[1])
